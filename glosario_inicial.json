@@ -1,0 +1,1020 @@
+{
+ "lengua": "Lengua originaria del Chaco",
+ "palabras": [
+  {
+   "id": "6153ef29",
+   "espanol": "árbol",
+   "originaria": "Atamisqui",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "00ea2e1a",
+   "espanol": "calabaza",
+   "originaria": "Cayota",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "82f6fd4d",
+   "espanol": "planta",
+   "originaria": "Chaguar",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "cf7e0de0",
+   "espanol": "planta - familia de leguminosas",
+   "originaria": "Churqui",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "7acd576a",
+   "espanol": "árbol grande",
+   "originaria": "Matara",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "62e39879",
+   "espanol": "planta alta",
+   "originaria": "Matara",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "93eac407",
+   "espanol": "mistol",
+   "originaria": "Mistol",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "dfb34f53",
+   "espanol": "árbol medicinal",
+   "originaria": "Molle",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "9d2b74ce",
+   "espanol": "arbusto",
+   "originaria": "Palan-palan",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "ab3891c1",
+   "espanol": "papa",
+   "originaria": "Papa",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "a603aa31",
+   "espanol": "patata",
+   "originaria": "Papa",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "e3413d7d",
+   "espanol": "planta solanácea",
+   "originaria": "Papa",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "d88f0c46",
+   "espanol": "algarrobo de las pampas",
+   "originaria": "Pampa teckellu",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "58303fa0",
+   "espanol": "maíz pequeño",
+   "originaria": "Pishinga",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "c3166828",
+   "espanol": "planta medicinal",
+   "originaria": "Quimpi",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "1353797b",
+   "espanol": "tuna",
+   "originaria": "Quinua / Tuna",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "dad57137",
+   "espanol": "algarrobo",
+   "originaria": "Tacko / Vinal",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "80eb7519",
+   "espanol": "hierba",
+   "originaria": "Yuyu",
+   "categoria": "flora",
+   "nota": ""
+  },
+  {
+   "id": "5b0b3705",
+   "espanol": "pájaro nocturno",
+   "originaria": "Cacuy / Urutaú",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "1c65c848",
+   "espanol": "pájaro pequeño",
+   "originaria": "Cachilo",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "9b672d3e",
+   "espanol": "variedad de avispa",
+   "originaria": "Carán",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "4f8472fb",
+   "espanol": "ave rapaz",
+   "originaria": "Carancho",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "b82756bb",
+   "espanol": "ave más grande del mundo",
+   "originaria": "Cóndor",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "e17b97b8",
+   "espanol": "chancho",
+   "originaria": "Cuchi",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "c8086134",
+   "espanol": "perro pequeño",
+   "originaria": "Cusco",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "41639cb0",
+   "espanol": "ave parecida al zorzal",
+   "originaria": "Chalchal",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "10785f43",
+   "espanol": "ave",
+   "originaria": "Charata / Chuña / Loro",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "4c9bcd8c",
+   "espanol": "lagarto",
+   "originaria": "Chelco",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "2b8bde88",
+   "espanol": "grillo",
+   "originaria": "Chilicote",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "1dbd47b8",
+   "espanol": "insecto",
+   "originaria": "Chinche",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "813a1921",
+   "espanol": "cigarra",
+   "originaria": "Coyuyo",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "c213e372",
+   "espanol": "ciervo",
+   "originaria": "Guazuncho",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "a9f91258",
+   "espanol": "piojo de las aves",
+   "originaria": "Ita",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "6446944d",
+   "espanol": "armadillo",
+   "originaria": "Mataco",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "5cf53f24",
+   "espanol": "gato",
+   "originaria": "Mishi",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "cd2d9ea7",
+   "espanol": "armadillo pequeño",
+   "originaria": "Pichi",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "1bd19bf4",
+   "espanol": "búho",
+   "originaria": "Quitilipi",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "dbb97690",
+   "espanol": "sapo grande",
+   "originaria": "Rococo",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "109b7409",
+   "espanol": "paloma",
+   "originaria": "Urpilla",
+   "categoria": "fauna",
+   "nota": ""
+  },
+  {
+   "id": "fb082751",
+   "espanol": "región de cacería",
+   "originaria": "Chaco",
+   "categoria": "toponimia",
+   "nota": ""
+  },
+  {
+   "id": "794fd555",
+   "espanol": "campo almirón",
+   "originaria": "Pampa Almirón",
+   "categoria": "toponimia",
+   "nota": "nombre de lugar"
+  },
+  {
+   "id": "7e72e577",
+   "espanol": "campo avispa brava",
+   "originaria": "Pampa Cabá Ñaró",
+   "categoria": "toponimia",
+   "nota": "nombre de lugar"
+  },
+  {
+   "id": "762d6767",
+   "espanol": "campo del cielo",
+   "originaria": "Pampa del Cielo",
+   "categoria": "toponimia",
+   "nota": "nombre de lugar"
+  },
+  {
+   "id": "4b7b6efb",
+   "espanol": "campo del indio",
+   "originaria": "Pampa del Indio",
+   "categoria": "toponimia",
+   "nota": "nombre de lugar"
+  },
+  {
+   "id": "1c56b79a",
+   "espanol": "campo del infierno",
+   "originaria": "Pampa del Infierno",
+   "categoria": "toponimia",
+   "nota": "nombre de lugar"
+  },
+  {
+   "id": "e4914964",
+   "espanol": "árbol en el pozo",
+   "originaria": "Taco Pozo",
+   "categoria": "toponimia",
+   "nota": ""
+  },
+  {
+   "id": "6721b90f",
+   "espanol": "ciervo",
+   "originaria": "Zaparinqui",
+   "categoria": "toponimia",
+   "nota": ""
+  },
+  {
+   "id": "2c697585",
+   "espanol": "apuñalar",
+   "originaria": "Achurar",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fdd21802",
+   "espanol": "añoranza",
+   "originaria": "Ayaytay",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "4b2b4112",
+   "espanol": "acto o afecto de despedir",
+   "originaria": "Cacharpaya",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "a87b0506",
+   "espanol": "campo de juego",
+   "originaria": "Cancha",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "0b5c7d20",
+   "espanol": "experimentado",
+   "originaria": "Chanchero",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "3d39a117",
+   "espanol": "era",
+   "originaria": "Cana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "86566eca",
+   "espanol": "conejito de indias",
+   "originaria": "Ckoy / Cuis",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "c051bea9",
+   "espanol": "tuétano",
+   "originaria": "Caracú",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "7164d609",
+   "espanol": "mugre",
+   "originaria": "Caracha",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "7841288c",
+   "espanol": "carajo",
+   "originaria": "Caracho",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "d52e487d",
+   "espanol": "carpa",
+   "originaria": "Carpa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "4172eb53",
+   "espanol": "comadre",
+   "originaria": "Cuma",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "25a00832",
+   "espanol": "compadre",
+   "originaria": "Cumpa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fa2ac858",
+   "espanol": "esquina",
+   "originaria": "Cucha",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "59fd6103",
+   "espanol": "chacarera",
+   "originaria": "Chacarera",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "0eb0b224",
+   "espanol": "chacarero",
+   "originaria": "Chacarero",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "70d7fca8",
+   "espanol": "planta de maíz",
+   "originaria": "Chala",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "b4d98a8a",
+   "espanol": "carne seca",
+   "originaria": "Charqui",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "744a7cdd",
+   "espanol": "miel",
+   "originaria": "Chilalo / Lechiguana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "21ab8994",
+   "espanol": "mujer",
+   "originaria": "China",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "04b4f34c",
+   "espanol": "muchacha",
+   "originaria": "Chiita",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "84f796bd",
+   "espanol": "prenda de tela",
+   "originaria": "Chiripa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "8053faf4",
+   "espanol": "corral",
+   "originaria": "Chiquero",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "19f6014f",
+   "espanol": "tejer",
+   "originaria": "Cholo",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "8a8735d1",
+   "espanol": "frío",
+   "originaria": "Chucho",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "1c48415e",
+   "espanol": "acción de escurrir",
+   "originaria": "Chuamao",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "2cf42a99",
+   "espanol": "pantorrilla",
+   "originaria": "Chunca",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "ff6205af",
+   "espanol": "número diez",
+   "originaria": "Chunca",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "1561bb40",
+   "espanol": "achura",
+   "originaria": "Chura",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "9f0f98a4",
+   "espanol": "cuernos",
+   "originaria": "Guampa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fcace46d",
+   "espanol": "grosería",
+   "originaria": "Guasada",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "3dea6d0d",
+   "espanol": "tiento de cuero",
+   "originaria": "Guasca",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "c8f0fb37",
+   "espanol": "estiércol",
+   "originaria": "Guano",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fa70a9aa",
+   "espanol": "hecha de choclo",
+   "originaria": "Humita",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "15c82d46",
+   "espanol": "avispa",
+   "originaria": "Lechiguana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "b1b7197e",
+   "espanol": "comida",
+   "originaria": "Locro",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "1c242579",
+   "espanol": "garrote",
+   "originaria": "Macana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "dd70b6e7",
+   "espanol": "madre",
+   "originaria": "Mamá",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "dc5e8161",
+   "espanol": "pedido",
+   "originaria": "Maña",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "114c60a9",
+   "espanol": "trabajo sin pago",
+   "originaria": "Minga",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "6dc5918a",
+   "espanol": "morocho",
+   "originaria": "Morocho",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "f49883b3",
+   "espanol": "dolor",
+   "originaria": "Nana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "e8f303df",
+   "espanol": "hermana",
+   "originaria": "Naña",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "1132cf74",
+   "espanol": "vieja",
+   "originaria": "Ñaupa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fbc0c4fc",
+   "espanol": "tonta",
+   "originaria": "Opa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "0b417a70",
+   "espanol": "cerro",
+   "originaria": "Orco",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "5b0a7ea2",
+   "espanol": "juego",
+   "originaria": "Pallana",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "2712853d",
+   "espanol": "campo",
+   "originaria": "Pampa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "fd1445c7",
+   "espanol": "escama de la piel",
+   "originaria": "Paspa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "dd30358b",
+   "espanol": "ropa",
+   "originaria": "Pilcha",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "83fd30f5",
+   "espanol": "pene",
+   "originaria": "Pingo",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "0f5a8450",
+   "espanol": "piña",
+   "originaria": "Piña",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "18b41b10",
+   "espanol": "orina",
+   "originaria": "Pish",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "231b8e7e",
+   "espanol": "fumada",
+   "originaria": "Pita",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "25fa21c4",
+   "espanol": "porongo",
+   "originaria": "Porongo",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "1f6f6009",
+   "espanol": "poroto",
+   "originaria": "Poroto",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "c506254e",
+   "espanol": "parto",
+   "originaria": "Puma",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "4fcfaac0",
+   "espanol": "ombligo",
+   "originaria": "Pupo",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "f5a21d47",
+   "espanol": "instrumento de viento",
+   "originaria": "Quena",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "8bcbd7d9",
+   "espanol": "golpe",
+   "originaria": "Taco",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "40d57911",
+   "espanol": "vasija de metal",
+   "originaria": "Tacho",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "b4771b05",
+   "espanol": "padre",
+   "originaria": "Tata",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "29c95959",
+   "espanol": "planta acuática",
+   "originaria": "Totora",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "2d2595a6",
+   "espanol": "luciérnaga",
+   "originaria": "Tucu-tucu",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "5abd14c8",
+   "espanol": "cabeza",
+   "originaria": "Uma",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "7a0ca87a",
+   "espanol": "piojo",
+   "originaria": "Usa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "81002b9c",
+   "espanol": "cinta para atar el cabello",
+   "originaria": "Vincha",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "7a2585e4",
+   "espanol": "agregar",
+   "originaria": "Yapa",
+   "categoria": "vocabulario",
+   "nota": ""
+  },
+  {
+   "id": "eb44b569",
+   "espanol": "ceibo",
+   "originaria": "Achira",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "75c16132",
+   "espanol": "árbol de frutas ovaladas",
+   "originaria": "Aguai",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "ce77ee7c",
+   "espanol": "helecho",
+   "originaria": "Amambay",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "e0429fd9",
+   "espanol": "zapallo",
+   "originaria": "Andaí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "67ea2a09",
+   "espanol": "maíz",
+   "originaria": "Avatí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "66531720",
+   "espanol": "yerba mate",
+   "originaria": "Ca-a",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "456a1ea9",
+   "espanol": "planta textil",
+   "originaria": "Caraguatá",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "d836dc2d",
+   "espanol": "palmera",
+   "originaria": "Carandá / Yata / Pindó",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "104d4695",
+   "espanol": "sustancia venenosa",
+   "originaria": "Curaré",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "b496ec70",
+   "espanol": "árbol de leche",
+   "originaria": "Curupí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "e9ed70e6",
+   "espanol": "parcialidad indígena",
+   "originaria": "Guaicurú",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "8c498454",
+   "espanol": "enredadera con frutas",
+   "originaria": "Guaraná",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "b9af23d5",
+   "espanol": "planta acuática",
+   "originaria": "Irupé",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "70f46d84",
+   "espanol": "algarrobo",
+   "originaria": "Ivopé",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "919aeb58",
+   "espanol": "flor",
+   "originaria": "Ivotí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "959bb319",
+   "espanol": "planta leguminosa",
+   "originaria": "Jacarandá",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "41cc2f3c",
+   "espanol": "algodón",
+   "originaria": "Mandiyú",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "06cb55c9",
+   "espanol": "calabaza",
+   "originaria": "Maraca",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "f654b88f",
+   "espanol": "árbol con frutas dulces",
+   "originaria": "Ñangapirí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "6794b971",
+   "espanol": "árbol espinoso",
+   "originaria": "Ñapindá",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "f1a4c9ef",
+   "espanol": "árbol",
+   "originaria": "Peteriví / Guapurú / Guayaibí",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "6a7631d5",
+   "espanol": "maíz saltado",
+   "originaria": "Pororó",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "7c33a6c3",
+   "espanol": "bambú",
+   "originaria": "Tacuara",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "4244ff31",
+   "espanol": "árbol corpulento",
+   "originaria": "Timbó",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "4145462a",
+   "espanol": "planta de la familia bignoniáceas",
+   "originaria": "Vivaró",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "f059bd8d",
+   "espanol": "gnafalio",
+   "originaria": "Vira-vira",
+   "categoria": "guaraní · flora",
+   "nota": ""
+  },
+  {
+   "id": "74032e1b",
+   "espanol": "zorro",
+   "originaria": "Aguará",
+   "categoria": "guaraní · fauna",
+   "nota": ""
+  },
+  {
+   "id": "602795fb",
+   "espanol": "zorro grande",
+   "originaria": "Aguará guasú",
+   "categoria": "guaraní · fauna",
+   "nota": ""
+  },
+  {
+   "id": "c1dfd8ba",
+   "espanol": "zorro más bajo en zona trasera",
+   "originaria": "Aguará popé",
+   "categoria": "guaraní · fauna",
+   "nota": ""
+  },
+  {
+   "id": "064937f2",
+   "espanol": "pájaro de color rojo",
+   "originaria": "Arapá",
+   "categoria": "guaraní · fauna",
+   "nota": ""
+  }
+ ]
+}

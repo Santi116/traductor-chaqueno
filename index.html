@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#1f3d2b">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <title>Traductor Chaqueño</title>
+    <link rel="icon" type="image/png" href="static/img/favicon.png">
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+
+<div id="splash" aria-hidden="true">
+    <div class="splash-in">
+        <canvas id="splashBandera"></canvas>
+        <h1>Traductor Chaqueño</h1>
+        <p>Diccionario de lenguas originarias</p>
+        <div class="splash-barra"><span></span></div>
+        <small>Proyecto de Santiago Agustín Gómez · Alumno de TIC</small>
+    </div>
+</div>
+
+<header class="cabecera">
+    <div class="cabecera-in">
+        <div class="marca">
+            <canvas id="banderaCab" class="bandera-cab" title="La Wiphala. ¡Tocala!"></canvas>
+            <div>
+                <h1>Traductor Chaqueño</h1>
+                <p class="sub">Español <span class="flecha">→</span> <span id="nombreLengua">Lengua originaria del Chaco</span></p>
+            </div>
+        </div>
+        <div class="contador"><strong id="total">0</strong><span>palabras</span></div>
+    </div>
+</header>
+<div class="banda"></div>
+
+<nav class="tabs" id="tabs">
+    <button class="tab activa" data-tab="traducir">🔎 Traducir</button>
+    <button class="tab" data-tab="agregar">➕ Agregar</button>
+    <button class="tab" data-tab="glosario">📖 Glosario</button>
+    <button class="tab" data-tab="chaco">🗺️ Chaco</button>
+    <button class="tab" data-tab="datos">⚙️ Datos</button>
+</nav>
+
+<!-- MINGA: guía virtual animada -->
+<section class="guia" aria-label="Minga, guía virtual">
+    <div class="guia-in">
+        <canvas class="red" id="red" aria-hidden="true"></canvas>
+
+        <div class="avatar" id="avatar" title="¡Tocame y te cuento una palabra!">
+            <svg id="minga" data-estado="saludo" viewBox="0 0 240 270" role="img" aria-label="Minga, guía virtual del Chaco">
+                <defs>
+                    <radialGradient id="mg-aura" cx="50%" cy="50%" r="50%">
+                        <stop offset="0" stop-color="#e3a857" stop-opacity=".5"/>
+                        <stop offset="1" stop-color="#e3a857" stop-opacity="0"/>
+                    </radialGradient>
+                    <pattern id="mg-tejido" width="16" height="16" patternUnits="userSpaceOnUse">
+                        <rect width="16" height="16" fill="#b8452a"/>
+                        <polygon points="8,1 15,8 8,15 1,8" fill="#e3a857"/>
+                        <polygon points="8,5 11,8 8,11 5,8" fill="#1f3d2b"/>
+                    </pattern>
+                </defs>
+
+                <!-- aura / órbitas -->
+                <g class="aura">
+                    <circle cx="120" cy="128" r="116" fill="url(#mg-aura)"/>
+                    <circle class="anillo a1" cx="120" cy="128" r="112" fill="none" stroke="#e3a857" stroke-opacity=".55" stroke-width="1.5" stroke-dasharray="2 10" stroke-linecap="round"/>
+                    <circle class="anillo a2" cx="120" cy="128" r="98" fill="none" stroke="#9fe3b8" stroke-opacity=".4" stroke-width="1" stroke-dasharray="14 8"/>
+                    <g class="orbita"><circle cx="232" cy="128" r="4" fill="#ffd58a"/></g>
+                    <g class="orbita o2"><circle cx="22" cy="128" r="3" fill="#9fe3b8"/></g>
+                </g>
+
+                <g id="personaje">
+                    <!-- cuerpo -->
+                    <g id="cuerpo">
+                        <path d="M104 150 L136 150 L138 172 L150 182 L120 202 L90 182 L102 172 Z" fill="#b2744a"/>
+                        <path d="M16 270 C16 208 56 184 96 178 L120 200 L144 178 C184 184 224 208 224 270 Z" fill="#efe2c2"/>
+                        <path d="M96 178 L120 200 L144 178" fill="none" stroke="#b8452a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+                        <path d="M18 238 C70 226 170 226 222 238 L224 256 C170 244 70 244 16 256 Z" fill="url(#mg-tejido)"/>
+                        <path d="M66 190 L86 182 L204 262 L176 270 Z" fill="url(#mg-tejido)" stroke="#7a2e1a" stroke-width="1.5" stroke-linejoin="round"/>
+                    </g>
+
+                    <!-- cabeza -->
+                    <g id="cabeza"><g class="flota">
+                        <path d="M64 104 C58 50 98 36 120 36 C142 36 182 50 176 104 L184 176 Q120 192 56 176 Z" fill="#1c1511"/>
+                        <ellipse cx="73" cy="112" rx="7" ry="11" fill="#b2744a"/>
+                        <ellipse cx="167" cy="112" rx="7" ry="11" fill="#b2744a"/>
+                        <ellipse cx="120" cy="106" rx="46" ry="54" fill="#c98a5b"/>
+                        <path d="M72 100 C68 58 96 44 120 44 C144 44 172 58 168 100 C160 84 148 78 120 78 C92 78 80 84 72 100 Z" fill="#1c1511"/>
+                        <path d="M70 94 C90 76 150 76 170 94 L169 106 C150 90 90 90 71 106 Z" fill="url(#mg-tejido)" stroke="#7a2e1a" stroke-width="1" stroke-linejoin="round"/>
+
+                        <path class="ceja ceja-i" d="M89 104 Q101 97 113 102" fill="none" stroke="#1c1511" stroke-width="3.2" stroke-linecap="round"/>
+                        <path class="ceja ceja-d" d="M127 102 Q139 97 151 104" fill="none" stroke="#1c1511" stroke-width="3.2" stroke-linecap="round"/>
+
+                        <g class="ojo"><ellipse cx="101" cy="117" rx="8.5" ry="7.8" fill="#fffaf0"/><g class="pupila"><circle cx="101" cy="117" r="5" fill="#2a1a12"/><circle cx="102.8" cy="115" r="1.6" fill="#fff"/></g></g>
+                        <g class="ojo"><ellipse cx="139" cy="117" rx="8.5" ry="7.8" fill="#fffaf0"/><g class="pupila"><circle cx="139" cy="117" r="5" fill="#2a1a12"/><circle cx="140.8" cy="115" r="1.6" fill="#fff"/></g></g>
+                        <path class="ojo-feliz" d="M92 120 Q101 108 110 120" fill="none" stroke="#1c1511" stroke-width="3.6" stroke-linecap="round"/>
+                        <path class="ojo-feliz" d="M130 120 Q139 108 148 120" fill="none" stroke="#1c1511" stroke-width="3.6" stroke-linecap="round"/>
+
+                        <ellipse cx="89" cy="136" rx="8" ry="5" fill="#e0734f" opacity=".35"/>
+                        <ellipse cx="151" cy="136" rx="8" ry="5" fill="#e0734f" opacity=".35"/>
+                        <path d="M120 122 Q115 135 121 137 Q124 137 125 134" fill="none" stroke="#9a5f38" stroke-width="2.4" stroke-linecap="round"/>
+
+                        <path class="m m-suave" d="M106 146 Q120 156 134 146" fill="none" stroke="#5a2418" stroke-width="3.6" stroke-linecap="round"/>
+                        <g class="m m-grande"><path d="M103 143 Q120 170 137 143 Z" fill="#6b2a1c"/><path d="M106 143.5 Q120 150 134 143.5 L133 147 Q120 153 107 147 Z" fill="#fffaf0"/></g>
+                        <path class="m m-lado" d="M108 151 Q120 153 132 145" fill="none" stroke="#5a2418" stroke-width="3.6" stroke-linecap="round"/>
+                        <path class="m m-duda" d="M106 149 Q113 143 120 149 T134 149" fill="none" stroke="#5a2418" stroke-width="3.4" stroke-linecap="round"/>
+                        <path class="m m-triste" d="M107 153 Q120 143 133 153" fill="none" stroke="#5a2418" stroke-width="3.6" stroke-linecap="round"/>
+                        <path class="m-habla" d="M107 144 Q120 150 133 144 Q131 162 120 162 Q109 162 107 144 Z" fill="#6b2a1c"/>
+                    </g></g>
+                </g>
+
+                <!-- efectos -->
+                <g class="destellos">
+                    <g transform="translate(40 72)"><path class="est e1" d="M0 -9 L2.5 -2.5 L9 0 L2.5 2.5 L0 9 L-2.5 2.5 L-9 0 L-2.5 -2.5 Z" fill="#ffd58a"/></g>
+                    <g transform="translate(200 90)"><path class="est e2" d="M0 -7 L2 -2 L7 0 L2 2 L0 7 L-2 2 L-7 0 L-2 -2 Z" fill="#9fe3b8"/></g>
+                    <g transform="translate(28 156)"><path class="est e3" d="M0 -6 L1.8 -1.8 L6 0 L1.8 1.8 L0 6 L-1.8 1.8 L-6 0 L-1.8 -1.8 Z" fill="#ffd58a"/></g>
+                    <g transform="translate(196 34)"><path class="est e4" d="M0 -10 L3 -3 L10 0 L3 3 L0 10 L-3 3 L-10 0 L-3 -3 Z" fill="#ffd58a"/></g>
+                </g>
+                <g class="pensamiento" fill="#ffd58a"><circle cx="176" cy="56" r="3"/><circle cx="190" cy="42" r="4.5"/><circle cx="208" cy="26" r="7"/></g>
+                <text class="signo" x="184" y="68" font-size="42" font-weight="800" fill="#ffd58a" font-family="Georgia, serif">?</text>
+
+                <!-- mano que saluda -->
+                <g id="mano"><g class="onda">
+                    <rect x="-11" y="22" width="22" height="80" rx="9" fill="#c98a5b"/>
+                    <rect x="-14" y="62" width="28" height="58" rx="6" fill="#efe2c2" stroke="#cdb98a" stroke-width="1.5"/>
+                    <rect x="-14" y="66" width="28" height="9" fill="url(#mg-tejido)"/>
+                    <rect x="-23" y="2" width="11" height="17" rx="5.5" transform="rotate(-28 -17 10)" fill="#c98a5b" stroke="#a86d43" stroke-width=".8"/>
+                    <rect x="-14" y="-8" width="28" height="32" rx="12" fill="#c98a5b"/>
+                    <rect x="-14" y="-30" width="6.5" height="28" rx="3.2" fill="#c98a5b" stroke="#a86d43" stroke-width=".8"/>
+                    <rect x="-7" y="-36" width="6.5" height="34" rx="3.2" fill="#c98a5b" stroke="#a86d43" stroke-width=".8"/>
+                    <rect x="0.5" y="-34" width="6.5" height="32" rx="3.2" fill="#c98a5b" stroke="#a86d43" stroke-width=".8"/>
+                    <rect x="7.5" y="-28" width="6.5" height="26" rx="3.2" fill="#c98a5b" stroke="#a86d43" stroke-width=".8"/>
+                </g></g>
+            </svg>
+            <div class="nombre"><span class="punto"></span><strong>Minga</strong><em>guía virtual</em></div>
+        </div>
+
+        <div class="charla">
+            <div class="burbuja">
+                <div id="burbujaTexto" class="b-texto"></div>
+                <div id="burbujaAcciones" class="b-acciones"></div>
+            </div>
+            <div class="sugerencias">
+                <button type="button" id="sugDia">🎲 Palabra del día</button>
+                <button type="button" id="sugAyuda">💡 ¿Qué sabés hacer?</button>
+            </div>
+            <p class="sr" id="mingaSr" aria-live="polite"></p>
+        </div>
+    </div>
+</section>
+
+<main class="pagina">
+
+    <!-- TRADUCIR -->
+    <section id="tab-traducir" class="panel visible">
+        <div class="tarjeta">
+            <div class="fila-buscar">
+                <input id="q" type="text" autocomplete="off" placeholder="Escribí una palabra en español…">
+                <button id="invertir" class="btn-sec" title="Invertir dirección">⇄</button>
+            </div>
+            <p class="direccion" id="direccion">Español → Lengua originaria</p>
+            <div id="resultado" class="resultado"></div>
+        </div>
+    </section>
+
+    <!-- AGREGAR -->
+    <section id="tab-agregar" class="panel">
+        <div class="tarjeta">
+            <h2>Agregar una palabra</h2>
+            <form id="formAgregar" autocomplete="off">
+                <div class="dos">
+                    <div>
+                        <label for="aEsp">Palabra en español</label>
+                        <input id="aEsp" required placeholder="Ej.: árbol">
+                    </div>
+                    <div>
+                        <label for="aOri">Traducción en lengua originaria</label>
+                        <input id="aOri" required placeholder="Ej.: Atamisqui">
+                    </div>
+                </div>
+                <div class="dos">
+                    <div>
+                        <label for="aCat">Categoría <small>(opcional)</small></label>
+                        <input id="aCat" list="categorias" placeholder="Ej.: flora, fauna, lugares…">
+                    </div>
+                    <div>
+                        <label for="aNota">Nota <small>(opcional)</small></label>
+                        <input id="aNota" placeholder="Ej.: árbol medicinal">
+                    </div>
+                </div>
+                <div class="voz-fila">
+                    <button type="button" id="aVoz" class="btn-chico">🎙️ Grabar voz (opcional)</button>
+                    <button type="button" id="aVozExterno" class="btn-chico">📁 Sonido externo (opcional)</button>
+                    <span id="aVozEstado" class="voz-chip" hidden></span>
+                </div>
+                <button class="btn" type="submit">Guardar palabra</button>
+            </form>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Carga rápida</h2>
+            <p class="ayuda">Pegá varias palabras, una por línea, con el formato <code>palabra = traducción</code>
+                (también sirve <code>;</code> o tabulación, y podés sumar categoría y nota: <code>palabra ; traducción ; categoría ; nota</code>).</p>
+            <textarea id="masivo" rows="6" placeholder="árbol = Atamisqui&#10;calabaza = Cayota&#10;gato = Mishi"></textarea>
+            <button id="btnMasivo" class="btn">Cargar palabras</button>
+        </div>
+    </section>
+
+    <!-- GLOSARIO -->
+    <section id="tab-glosario" class="panel">
+        <div class="tarjeta">
+            <div class="dos filtros">
+                <input id="filtro" placeholder="Filtrar el glosario…">
+                <select id="filtroCat"><option value="">Todas las categorías</option></select>
+            </div>
+            <p class="ayuda" id="cuenta"></p>
+            <div id="lista"></div>
+        </div>
+    </section>
+
+    <!-- CHACO -->
+    <section id="tab-chaco" class="panel">
+        <div class="tarjeta">
+            <h2>La tierra de esta lengua</h2>
+            <div class="mapa-grid">
+                <div class="mapa-escena" id="mapaEscena" title="Tocá el mapa">
+                    <div class="mapa-giro">
+                        <img id="mapaChaco" src="static/img/chaco.png" alt="Mapa de la provincia del Chaco con los colores de su bandera" draggable="false">
+                    </div>
+                    <span class="mapa-brillo"></span>
+                </div>
+                <div class="mapa-info">
+                    <p class="mapa-intro">El <strong>Chaco</strong> es el origen de las palabras de este glosario. Movelo con el mouse y tocalo: Minga te cuenta una.</p>
+                    <ul class="datos-chaco">
+                        <li><span>📍</span><div>Provincia del norte argentino. Su capital es <strong>Resistencia</strong>.</div></li>
+                        <li><span>🏹</span><div>Según la explicación más difundida, «Chaco» viene del quechua <em>chaku</em>: <strong>territorio de caza</strong>.</div></li>
+                        <li><span>🗣️</span><div>Allí viven los pueblos <strong>qom, wichí y moqoit</strong>, con sus lenguas propias.</div></li>
+                    </ul>
+                    <button type="button" id="mapaPalabra" class="btn-chico">🎲 Una palabra del monte</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Tu glosario en números</h2>
+            <div id="estadisticas"></div>
+        </div>
+    </section>
+
+    <!-- DATOS -->
+    <section id="tab-datos" class="panel">
+        <div class="tarjeta">
+            <h2>Importar tu glosario</h2>
+            <p class="ayuda">Subí un archivo <strong>CSV</strong> (podés guardarlo desde Excel), <strong>TXT</strong> o <strong>JSON</strong>.
+                Primera columna: español; segunda: lengua originaria; tercera y cuarta (opcionales): categoría y nota.</p>
+            <input id="archivo" type="file" accept=".csv,.txt,.tsv,.json">
+            <label class="check"><input id="reemplazar" type="checkbox"> Reemplazar todo el glosario actual</label>
+            <button id="btnImportar" class="btn">Importar archivo</button>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Exportar tu glosario</h2>
+            <p class="ayuda">Elegí el formato. El archivo se guarda en tu carpeta <strong>Descargas</strong> y sirve como copia de seguridad.</p>
+            <div class="exportar-grid">
+                <button type="button" class="exp" data-exp="xlsx"><span>📗</span><strong>Excel</strong><small>.xlsx</small></button>
+                <button type="button" class="exp" data-exp="txt"><span>📄</span><strong>Texto</strong><small>.txt</small></button>
+                <button type="button" class="exp" data-exp="csv"><span>📊</span><strong>CSV</strong><small>.csv</small></button>
+                <button type="button" class="exp" data-exp="json"><span>🧩</span><strong>JSON</strong><small>.json</small></button>
+            </div>
+            <div id="exportado" class="exportado" hidden>
+                <span id="exportadoTexto"></span>
+                <button type="button" id="abrirCarpeta" class="btn-chico" hidden>📂 Mostrar en la carpeta</button>
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <h2>Nombre de la lengua</h2>
+            <p class="ayuda">Aparece en el encabezado. Por ejemplo: Qom, Wichí, Moqoit, Quechua santiagueño…</p>
+            <form id="formLengua" class="fila-buscar">
+                <input id="lengua" placeholder="Nombre de la lengua">
+                <button class="btn" type="submit">Guardar</button>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="pie">
+    <div class="pie-franja"></div>
+    <div class="pie-in">
+        <canvas id="banderaPie" aria-hidden="true"></canvas>
+        <div class="pie-texto">
+            <strong>Traductor Chaqueño</strong>
+            <span>Proyecto realizado por <b>Santiago Agustín Gómez</b><br>Alumno de TIC (Tecnología de la Información y la Comunicación)</span>
+            <small>© 2026 Santiago Agustín Gómez. Todos los derechos reservados.</small>
+            
+            <small>Glosario guardado en este dispositivo · tus datos quedan solo en tu teléfono</small>
+        </div>
+        <figure class="pie-escudo">
+            <img src="static/img/escudo.png" alt="Escudo de la U.E.G.P. N°22 «Ntra. Sra. de Fátima», Quitilipi (Chaco)">
+            <figcaption>U.E.G.P. N°22<br>Quitilipi · Chaco</figcaption>
+        </figure>
+    </div>
+</footer>
+
+<datalist id="categorias"></datalist>
+
+<dialog id="dlgEditar">
+    <form id="formEditar" method="dialog" autocomplete="off">
+        <h2>Editar palabra</h2>
+        <label for="eEsp">Español</label><input id="eEsp" required>
+        <label for="eOri">Lengua originaria</label><input id="eOri" required>
+        <label for="eCat">Categoría</label><input id="eCat" list="categorias">
+        <label for="eNota">Nota</label><input id="eNota">
+        <div class="dos">
+            <button class="btn" type="submit">Guardar cambios</button>
+            <button class="btn sec" type="button" id="cancelarEditar">Cancelar</button>
+        </div>
+    </form>
+</dialog>
+
+<dialog id="dlgVoz">
+    <h2 id="vozTitulo">Grabar voz</h2>
+    <p id="vozEstado" class="voz-estado"></p>
+    <div class="voz-escena">
+        <button type="button" id="vozRec" class="voz-rec" aria-label="Grabar o detener">🎙️</button>
+        <div id="vozMedidor" class="voz-medidor" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div id="vozTiempo" class="voz-tiempo">0:00</div>
+    </div>
+    <div class="voz-o"><span>o</span></div>
+    <button type="button" id="vozExterno" class="btn-chico">📁 Agregar sonido externo</button>
+    <p class="voz-ayuda">Elegí un archivo de tu teléfono (mp3, wav, ogg, m4a, aac, flac o webm, hasta 4 MB) o arrastralo hasta esta ventana.</p>
+    <input type="file" id="vozArchivo" accept="audio/*,.mp3,.wav,.ogg,.oga,.opus,.m4a,.aac,.flac,.webm,.weba" hidden>
+    <audio id="vozPrevia" controls hidden></audio>
+    <div class="dos">
+        <button type="button" id="vozGuardar" class="btn" disabled>Guardar voz</button>
+        <button type="button" id="vozCancelar" class="btn sec">Cancelar</button>
+    </div>
+    <button type="button" id="vozEliminar" class="btn-chico" hidden>🗑️ Eliminar la voz guardada</button>
+</dialog>
+
+<div id="toasts"></div>
+
+<script src="static/bandera.js"></script>
+<script src="static/minga.js"></script>
+<script src="static/voz.js"></script>
+<script src="static/xlsx.js"></script>
+<script src="static/almacen.js"></script>
+<script src="static/app.js"></script>
+<script src="static/instalar.js"></script>
+</body>
+</html>
