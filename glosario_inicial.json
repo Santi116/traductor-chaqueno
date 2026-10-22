@@ -1,0 +1,1889 @@
+{
+  "lengua": "Lengua originaria del Chaco",
+  "palabras": [
+    {
+      "id": "85818686",
+      "espanol": "árbol",
+      "originaria": "Atamisqui",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ecbe023f",
+      "espanol": "calabaza",
+      "originaria": "Cayota",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "df09e9b4",
+      "espanol": "planta",
+      "originaria": "Chaguar",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "1b309d9a",
+      "espanol": "planta-familia de leguminosas",
+      "originaria": "Churqui",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "09f850c6",
+      "espanol": "árbol",
+      "originaria": "Garabalto",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "86770305",
+      "espanol": "árbol",
+      "originaria": "Guayacán",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "6034a020",
+      "espanol": "arbusto",
+      "originaria": "Jume",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "2b7783e3",
+      "espanol": "árbol grande, planta alta",
+      "originaria": "Matara",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "86cc2932",
+      "espanol": "mistol",
+      "originaria": "Mistol",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "38a7c708",
+      "espanol": "árbol de propiedad medicinal",
+      "originaria": "Molle",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "0a46ad5c",
+      "espanol": "planta",
+      "originaria": "Paico",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "7a34fb6d",
+      "espanol": "arbusto",
+      "originaria": "Palan-palan",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "69eb0860",
+      "espanol": "papa/patata-planta solanácea",
+      "originaria": "Papa",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "c5b76f09",
+      "espanol": "algarrobo de las pampas",
+      "originaria": "Pampa teckellu",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "fe4b022e",
+      "espanol": "maíz pequeño",
+      "originaria": "Pishinga",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "fabb129a",
+      "espanol": "planta medicinal",
+      "originaria": "Quimpi",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "bc7818cb",
+      "espanol": "tuna",
+      "originaria": "Quinua",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "1adc139f",
+      "espanol": "algarrobo",
+      "originaria": "Tacko",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "c95d39bc",
+      "espanol": "Tuna",
+      "originaria": "Tuna",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "18d156f7",
+      "espanol": "árbol",
+      "originaria": "Ucle",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9316194f",
+      "espanol": "algarrobo",
+      "originaria": "Vinal",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "bc0d87f4",
+      "espanol": "planta",
+      "originaria": "Vira-vira",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "7bd43dc6",
+      "espanol": "hierva",
+      "originaria": "Yuyu",
+      "categoria": "Flora",
+      "nota": "Quichua"
+    },
+    {
+      "id": "7bb1a7db",
+      "espanol": "pájaro nocturno",
+      "originaria": "Cacuy",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "e8fb741a",
+      "espanol": "pájaro pequeño",
+      "originaria": "Cachilo",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "b81611c9",
+      "espanol": "variedad de avispa",
+      "originaria": "Carán",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9a0ea851",
+      "espanol": "ave rapaz",
+      "originaria": "Carancho",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "c1baa22f",
+      "espanol": "ave más grande del mundo",
+      "originaria": "Cóndor",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "def95a3f",
+      "espanol": "Chancho",
+      "originaria": "Cuchi",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "5c528a4b",
+      "espanol": "perro pequeño",
+      "originaria": "Cusco",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "2e4be21b",
+      "espanol": "variedad de ave parecida al zorzal",
+      "originaria": "Chalchal",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ed344bd7",
+      "espanol": "ave",
+      "originaria": "Charata",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "1223190b",
+      "espanol": "lagarto",
+      "originaria": "Chelco",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "3d6da49b",
+      "espanol": "grillo",
+      "originaria": "Chilicote",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d818c93d",
+      "espanol": "insecto",
+      "originaria": "Chinche",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "65a04abb",
+      "espanol": "ave",
+      "originaria": "Chuña",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9d2bf439",
+      "espanol": "cigarra",
+      "originaria": "Coyuyo",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "a0f9b028",
+      "espanol": "ciervo",
+      "originaria": "Guazuncho",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d11c531b",
+      "espanol": "piojo de las aves",
+      "originaria": "Ita",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "58814c52",
+      "espanol": "ave",
+      "originaria": "Loro",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "a24b5509",
+      "espanol": "armadillo",
+      "originaria": "Mataco",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ccbffb17",
+      "espanol": "gato",
+      "originaria": "Mishi",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "060b978e",
+      "espanol": "armadillo pequeño",
+      "originaria": "Pichi",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "e1b077d8",
+      "espanol": "búho",
+      "originaria": "Quitilipi",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ba99be5d",
+      "espanol": "sapo grande",
+      "originaria": "Rococo",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d1f9ed33",
+      "espanol": "paloma",
+      "originaria": "Urpilla",
+      "categoria": "Fauna",
+      "nota": "Quichua"
+    },
+    {
+      "id": "042ac7d5",
+      "espanol": "región de cacería",
+      "originaria": "Chaco",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "903fa3c4",
+      "espanol": "Campo Almirón",
+      "originaria": "Pampa Almirón",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "1bc060ba",
+      "espanol": "Campo Avispa Brava",
+      "originaria": "Pampa Cabá Ñaró",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ec0b60e2",
+      "espanol": "Campo del Cielo",
+      "originaria": "Pampa del Cielo",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "019dc0a9",
+      "espanol": "Campo del Indio",
+      "originaria": "Pampa del Indio",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "10843f5a",
+      "espanol": "Campo del Infierno",
+      "originaria": "Pampa del Infierno",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "55b7272c",
+      "espanol": "árbol en el pozo",
+      "originaria": "Taco Pozo",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "5804dcac",
+      "espanol": "ciervo",
+      "originaria": "Zaparinqui",
+      "categoria": "Toponimia",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9ab33815",
+      "espanol": "apuñalar/añoranza",
+      "originaria": "Achurar-ayaytay",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "1a74686d",
+      "espanol": "acto o afecto despedir/campo de juego",
+      "originaria": "Cacharpaya-cancha",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "53771067",
+      "espanol": "experimentado/verbo era",
+      "originaria": "Chanchero-cana",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "229a4945",
+      "espanol": "conejito de indias",
+      "originaria": "Ckoy o cuis",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d43006a8",
+      "espanol": "tuétano/mugre",
+      "originaria": "Caracú-caracha",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ce031faf",
+      "espanol": "carajo/ave rapaz",
+      "originaria": "Caracho-carancho",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "41d389fc",
+      "espanol": "carajo/carpa",
+      "originaria": "Caray-carpa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ad7d5c23",
+      "espanol": "comadre/compadre",
+      "originaria": "Cuma-cumpa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "7833ec47",
+      "espanol": "esquina/chacarera",
+      "originaria": "Cucha-chacarera",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "838eb326",
+      "espanol": "chacarero/planta de maíz",
+      "originaria": "Chacarero-chala",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "ebfc553b",
+      "espanol": "carne seca-miel",
+      "originaria": "Charqui-chilalo",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "42b2660b",
+      "espanol": "mujer/muchacha",
+      "originaria": "China-chiita",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "c082d28b",
+      "espanol": "prenda de tela/corral",
+      "originaria": "Chiripa-chiquero",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "514c888e",
+      "espanol": "tejer/frío",
+      "originaria": "Cholo-chucho",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "b862c0b6",
+      "espanol": "acción de escurrir/pantorrilla",
+      "originaria": "Chuamao-chunca",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d3b5d7f1",
+      "espanol": "número diez/ achura",
+      "originaria": "Chunca-chura",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9e11cdfc",
+      "espanol": "arbusto",
+      "originaria": "Churqui",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9f01b425",
+      "espanol": "erque/cuernos",
+      "originaria": "Erque-guampa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "6eb0f2f2",
+      "espanol": "grosería-tiento de cuero",
+      "originaria": "Guasada-guasca",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "d27c2db2",
+      "espanol": "estiércol/hecha de choclo",
+      "originaria": "Guano-humita",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "bb1d56b2",
+      "espanol": "avispa/comida",
+      "originaria": "Lechiguana-locro",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "f49b75da",
+      "espanol": "garrote/madre",
+      "originaria": "Macana-mamá",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "90832180",
+      "espanol": "pedido/trabajo sin pago",
+      "originaria": "Maña-minga",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "f0dfe157",
+      "espanol": "morocho/dolor",
+      "originaria": "Morocho-nana",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "6e3e3c89",
+      "espanol": "hermana/vieja/tonta",
+      "originaria": "Naña-ñaupa-opa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "3cedcc0e",
+      "espanol": "cerro/juego",
+      "originaria": "Orco-pallana",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "cba1915c",
+      "espanol": "campo/escama de la piel",
+      "originaria": "Pampa-paspa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "7a6b42c3",
+      "espanol": "ropa/pene",
+      "originaria": "Pilcha-pingo",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "38a7c353",
+      "espanol": "piña/orina",
+      "originaria": "Piña-pish",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9f39581b",
+      "espanol": "maíz/fumada",
+      "originaria": "Pishinga-pita",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "15b0ce11",
+      "espanol": "porongo/ poroto",
+      "originaria": "Porongo-poroto",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "908ac09f",
+      "espanol": "parto/ ombligo",
+      "originaria": "Puma-pupo",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "dc0216e0",
+      "espanol": "instrumento de viento/golpe",
+      "originaria": "Quena-taco",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "a43fce72",
+      "espanol": "vasija de metal/padre",
+      "originaria": "Tacho-tata",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "cdc48a50",
+      "espanol": "planta acuática/ luciérnaga",
+      "originaria": "Totora-tucu-tucu",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "063e5c8e",
+      "espanol": "cabeza/piojo",
+      "originaria": "Uma-usa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "da0625f8",
+      "espanol": "cinta para atar el cabello/agregar",
+      "originaria": "Vincha-yapa",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "9a166dee",
+      "espanol": "miel/avispa",
+      "originaria": "Chilalo-lechiguana",
+      "categoria": "Vocablos de uso generalizado",
+      "nota": "Quichua"
+    },
+    {
+      "id": "050538e2",
+      "espanol": "Ceibo",
+      "originaria": "Achira",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "30f2dd49",
+      "espanol": "árbol de frutas ovaladas",
+      "originaria": "Aguai",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9d29a128",
+      "espanol": "helecho",
+      "originaria": "Amambay",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "63a9a877",
+      "espanol": "zapallo",
+      "originaria": "Andaí",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "35af5f20",
+      "espanol": "maíz",
+      "originaria": "Avatí",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "4fe706cc",
+      "espanol": "yerba mate",
+      "originaria": "Ca-a",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "de39c40f",
+      "espanol": "planta textil",
+      "originaria": "Caraguatá",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "a1e285f7",
+      "espanol": "palmera",
+      "originaria": "Carandá",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "edcb25d5",
+      "espanol": "sustancia venenosa",
+      "originaria": "Curaré",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f8238165",
+      "espanol": "árbol de leche",
+      "originaria": "Curupí",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "22987893",
+      "espanol": "parcialidad indígena",
+      "originaria": "Guaicurú",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "c30f8d58",
+      "espanol": "enredadera con frutas",
+      "originaria": "Guaraná",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "1a545d9a",
+      "espanol": "árbol",
+      "originaria": "Guayaiví",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "fb033df5",
+      "espanol": "planta acuática",
+      "originaria": "Irupé",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "50d9cae0",
+      "espanol": "algarrobo",
+      "originaria": "Ivopé",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "48a04df0",
+      "espanol": "flor",
+      "originaria": "Ivotí",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f8831bb0",
+      "espanol": "planta leguminosa",
+      "originaria": "Jacarandá",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f2466403",
+      "espanol": "algodón",
+      "originaria": "Mandiyú",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "26c2d5a5",
+      "espanol": "calabaza",
+      "originaria": "Maraca",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "36cf6cdb",
+      "espanol": "árbol con fruta dulces",
+      "originaria": "Ñangapirí",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9aec7bfc",
+      "espanol": "árbol espinoso",
+      "originaria": "Ñapindá",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "1a114c9c",
+      "espanol": "árbol",
+      "originaria": "Peteriví",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "6372a21b",
+      "espanol": "maíz saltado",
+      "originaria": "Pororó",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9761fa47",
+      "espanol": "bambú",
+      "originaria": "Tacuara",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "3a209205",
+      "espanol": "árbol corpulento",
+      "originaria": "Timbó",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "c15f1f91",
+      "espanol": "planta de la familia bignoniáceas",
+      "originaria": "Vivaró",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "db2e2413",
+      "espanol": "gnafalio",
+      "originaria": "Vira-vira",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9485f53b",
+      "espanol": "palmera",
+      "originaria": "Yata",
+      "categoria": "Flora",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "3016525c",
+      "espanol": "Zorro",
+      "originaria": "Aguará",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "4bf0b25c",
+      "espanol": "zorro grande",
+      "originaria": "Aguará guasú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "afa79261",
+      "espanol": "zorro más bajo en zona trasera",
+      "originaria": "Aguará popé",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "7cbd1bd1",
+      "espanol": "pájaro de color rojo",
+      "originaria": "AragÜirá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9b99a67e",
+      "espanol": "ave zancuda",
+      "originaria": "Carau",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "018b5e90",
+      "espanol": "mono",
+      "originaria": "Carayá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "83be97ef",
+      "espanol": "avispa",
+      "originaria": "Cavá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "2f6c6577",
+      "espanol": "lechuza-búho",
+      "originaria": "Cavuré",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "bd6cc914",
+      "espanol": "ave",
+      "originaria": "Chahjá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "124e03e3",
+      "espanol": "ardilla",
+      "originaria": "Cuatí",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "a34682f0",
+      "espanol": "sapo",
+      "originaria": "Curiyú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f1ba36d1",
+      "espanol": "grande",
+      "originaria": "Guasú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "bff9680a",
+      "espanol": "lagarto",
+      "originaria": "Iguana",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "4c53ee93",
+      "espanol": "saltamontes",
+      "originaria": "Mamboretá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "63280cf4",
+      "espanol": "pez",
+      "originaria": "Manguruyú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "becaa56d",
+      "espanol": "mosquito",
+      "originaria": "MbarigÜí",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "a5449597",
+      "espanol": "pájaro",
+      "originaria": "Morajhú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "45a9f8c2",
+      "espanol": "víbora",
+      "originaria": "Ñacaniná",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "b5248370",
+      "espanol": "ave",
+      "originaria": "Ñandú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8b51ec30",
+      "espanol": "pez",
+      "originaria": "Patí",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "df63027e",
+      "espanol": "pájaro",
+      "originaria": "Pitogué",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "cc1b7621",
+      "espanol": "pájaro de color amarillo",
+      "originaria": "Suirirú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "ea1fe934",
+      "espanol": "bagre grande",
+      "originaria": "Suruví",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8dc8480e",
+      "espanol": "armadillo",
+      "originaria": "Tatú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "7139188e",
+      "espanol": "mono",
+      "originaria": "Tití",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "c2a0bf08",
+      "espanol": "tucán",
+      "originaria": "Tucá-tucán",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "56127e48",
+      "espanol": "mariposa",
+      "originaria": "Ura",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "ece4793c",
+      "espanol": "pájaro nocturno",
+      "originaria": "Urutaú",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "ec2db7a4",
+      "espanol": "caimán",
+      "originaria": "Yacaré",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "891a1eff",
+      "espanol": "perro",
+      "originaria": "Yaguá",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "69da3194",
+      "espanol": "tigre",
+      "originaria": "Yaguareté",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8c486cb2",
+      "espanol": "serpiente",
+      "originaria": "Yarará",
+      "categoria": "Fauna",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f0ea3a83",
+      "espanol": "pava montés",
+      "originaria": "Charata",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "e05eb2b5",
+      "espanol": "árbol",
+      "originaria": "Guayaibí",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "b3ab74cf",
+      "espanol": "Río que origina un mar",
+      "originaria": "Paraguay",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8ed9fd20",
+      "espanol": "mar preciado",
+      "originaria": "Paraná",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "d53d7069",
+      "espanol": "membrillo-guayaba",
+      "originaria": "Rio Arazá",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "3fec511c",
+      "espanol": "palo borracho",
+      "originaria": "Samuhú",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "80c87ad3",
+      "espanol": "camino del alma",
+      "originaria": "Tapenagá",
+      "categoria": "Toponimia",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "49809a05",
+      "espanol": "compasión/ burla",
+      "originaria": "Angá-angaú",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8f1d2353",
+      "espanol": "diablo/inteligente/sabiduría",
+      "originaria": "Añá-arandú",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "acdf8133",
+      "espanol": "cabello/cabeza",
+      "originaria": "Avá-cacá",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "1ac6d730",
+      "espanol": "carro arrastrado por bueyes/negro",
+      "originaria": "Cachapé-camba",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "91f0450d",
+      "espanol": "tuétano/mal genio, enojado",
+      "originaria": "Caracú-caracho",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "414e647c",
+      "espanol": "señor/petiso",
+      "originaria": "Caraí-carapé",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "7a8ff84c",
+      "espanol": "elegante/olor fuerte",
+      "originaria": "Caté-catí",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "e5786a3c",
+      "espanol": "borracho/chiquito/cerdo",
+      "originaria": "Caú-cucu-cuco",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "6b9ab47a",
+      "espanol": "niño/niña",
+      "originaria": "Cunumí-cuñá",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "6b346e51",
+      "espanol": "cuidado/canto o danzas",
+      "originaria": "Chake-chamamé",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "3289d4d5",
+      "espanol": "ventaja cuando se sabe/yo",
+      "originaria": "Changüí-che",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "cbdf5362",
+      "espanol": "pan horneado/prenda de vestir",
+      "originaria": "Chipa-chiripá",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f1016271",
+      "espanol": "mujer/bebida alcohólica",
+      "originaria": "Guaina-guaripola",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "5dc2bc71",
+      "espanol": "grande/antiguo",
+      "originaria": "Iguasú-imaguaré",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "aa930932",
+      "espanol": "piedra",
+      "originaria": "Itatí",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "c63f130f",
+      "espanol": "hombre lobo/fallecer",
+      "originaria": "Lobizón-manó",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "675fb15f",
+      "espanol": "guitarra/gallina",
+      "originaria": "Mbarcá-mbatará",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "602e2354",
+      "espanol": "gallo colorado/peón-trabajo ocasional",
+      "originaria": "Bataraz-mensú",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "7237739b",
+      "espanol": "¡ánimo!/nomás/hecho a mano, tejido fino",
+      "originaria": "Neike-nicó-ñandutí",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "6301fda1",
+      "espanol": "bravo/termino",
+      "originaria": "Ñaró-opá",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f0ee27e4",
+      "espanol": "sacerdote/ hechizo",
+      "originaria": "Pa-í-payé",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "ea1f10d2",
+      "espanol": "ahí viena/lindo",
+      "originaria": "Peina-porá",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "d34bd507",
+      "espanol": "pobre/gusano o parásito de los animaes",
+      "originaria": "Poriahjú-saguaipé",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "57cb5963",
+      "espanol": "grito/hormiguero",
+      "originaria": "Sapucai-tacurú",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "25872a90",
+      "espanol": "rebenque",
+      "originaria": "Teyuruguai",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "f1f90b62",
+      "espanol": "vuelco",
+      "originaria": "Yopará",
+      "categoria": "Vocablo de uso generalizado",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "5489073d",
+      "espanol": "pedazos muy pequeños",
+      "originaria": "Curubicas",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "13432a50",
+      "espanol": "árbol",
+      "originaria": "Guapurú",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "183248f6",
+      "espanol": "pájaro",
+      "originaria": "Urú",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9594d256",
+      "espanol": "Dios",
+      "originaria": "Ñandeyara",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "99a73ff5",
+      "espanol": "arrorró",
+      "originaria": "Tororé",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "8fa56904",
+      "espanol": "me mandó",
+      "originaria": "Che mondó",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "ba38cfe5",
+      "espanol": "niño recién nacido",
+      "originaria": "Caraí chuí",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "4e40278e",
+      "espanol": "palmera",
+      "originaria": "Pindó",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "416799b8",
+      "espanol": "planta silvestre de dulce fruto",
+      "originaria": "Guabiyú",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "2df6844a",
+      "espanol": "mi pequeño lindo",
+      "originaria": "Mita-cunuú",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "867fb5b0",
+      "espanol": "arrugada",
+      "originaria": "Chaí",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "862b19db",
+      "espanol": "váyase ya de acá",
+      "originaria": "Eguatá terechó",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "c85fc137",
+      "espanol": "luciérnagas",
+      "originaria": "Tacas",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "97758fdc",
+      "espanol": "acordeón",
+      "originaria": "Cordiona",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "fb6aa032",
+      "espanol": "muchachito negro",
+      "originaria": "Cunumicito cambá",
+      "categoria": "Otros vocablos",
+      "nota": "Guaraní"
+    },
+    {
+      "id": "9bae00ad",
+      "espanol": "el sol",
+      "originaria": "Nalá",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "904b23f1",
+      "espanol": "algodón",
+      "originaria": "Gualok",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "b7c58948",
+      "espanol": "descanso",
+      "originaria": "Anmatec",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "3d52c0ed",
+      "espanol": "Monte Grande",
+      "originaria": "Avia Terai",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "80860546",
+      "espanol": "lugar donde habitan las palometas",
+      "originaria": "Cote Lai",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "ba6ac51d",
+      "espanol": "la gorda",
+      "originaria": "Charadai",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "9c8e140e",
+      "espanol": "cazadora",
+      "originaria": "Machagai",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "79e74891",
+      "espanol": "cementerio",
+      "originaria": "Napalpí",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "60b41b43",
+      "espanol": "la indomable",
+      "originaria": "Napenay",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "fe4445a3",
+      "espanol": "cacique",
+      "originaria": "Nataralá",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "2f8c2803",
+      "espanol": "Campo del Cielo",
+      "originaria": "pigÜen Noraltá",
+      "categoria": "Toba-Qom",
+      "nota": ""
+    },
+    {
+      "id": "a2b6011c",
+      "espanol": "Cabra",
+      "originaria": "Quetac",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "86c9cbd1",
+      "espanol": "Lagartija",
+      "originaria": "Malaxaic",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "37824c4a",
+      "espanol": "Mono",
+      "originaria": "Huoyiem",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "d41e779b",
+      "espanol": "Oveja",
+      "originaria": "Qagueta’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "a6b913c3",
+      "espanol": "Zorro",
+      "originaria": "Huaxayiaxa",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "f205b9c5",
+      "espanol": "Puma",
+      "originaria": "Sauaxaic",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "c0cb5903",
+      "espanol": "Yaguareté",
+      "originaria": "Quiyoc",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "93b6e677",
+      "espanol": "Liebre",
+      "originaria": "Lerema’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "d0e56772",
+      "espanol": "Conejo",
+      "originaria": "Soxona’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "64b365bb",
+      "espanol": "Chancho",
+      "originaria": "Cos",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "a6d87a7f",
+      "espanol": "Chancho moro",
+      "originaria": "Yiolo’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "6cc29dcc",
+      "espanol": "Murciélago",
+      "originaria": "Micai",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "102d0f8f",
+      "espanol": "Oso hormiguero",
+      "originaria": "Potai",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "17d96ebd",
+      "espanol": "Víbora / serpiente",
+      "originaria": "Araxanac",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "b1456f6b",
+      "espanol": "Guazuncho",
+      "originaria": "Ñi’imshi",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "38613ca4",
+      "espanol": "Coatí",
+      "originaria": "Coshenqo’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "81f70c9b",
+      "espanol": "Nutria",
+      "originaria": "Chiguishe’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "1ed23090",
+      "espanol": "Tatú mulita",
+      "originaria": "Tapinec",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "326310ba",
+      "espanol": "Gato",
+      "originaria": "Micho",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "8922ca57",
+      "espanol": "Loro",
+      "originaria": "Ele’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "161ae0c4",
+      "espanol": "Cotorra",
+      "originaria": "Quillec",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "acea8684",
+      "espanol": "Ñandú",
+      "originaria": "Mañec",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "d01e23fa",
+      "espanol": "Paloma",
+      "originaria": "Qoto’",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "08c32150",
+      "espanol": "Pato",
+      "originaria": "Vililili",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "cdc9496c",
+      "espanol": "Caballo",
+      "originaria": "Caaỹo",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "16ac94b6",
+      "espanol": "Suruví",
+      "originaria": "Chelmec",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "456fe9eb",
+      "espanol": "Perdiz",
+      "originaria": "Dachimí",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "7a8ae62d",
+      "espanol": "Caracolero",
+      "originaria": "Huagaga",
+      "categoria": "Animales",
+      "nota": "Qom"
+    },
+    {
+      "id": "f89d6dfb",
+      "espanol": "Mañana",
+      "originaria": "Qonte’",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "45643af2",
+      "espanol": "Pasado mañana",
+      "originaria": "Qonte’ l-la",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "50ea9cf9",
+      "espanol": "Después",
+      "originaria": "Qome’",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "59f1dca3",
+      "espanol": "Más tarde",
+      "originaria": "Qomele",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "932ee427",
+      "espanol": "Más adelante",
+      "originaria": "Copi’aque",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "27b034c8",
+      "espanol": "Los días que vendrán",
+      "originaria": "Nawanmaxate",
+      "categoria": "Tiempo futuro",
+      "nota": "Qom"
+    },
+    {
+      "id": "b711a63f",
+      "espanol": "Familia",
+      "originaria": "Nhuo",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "f88e4b38",
+      "espanol": "Abuelo",
+      "originaria": "Yapé",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "afb93dda",
+      "espanol": "Abuela",
+      "originaria": "Comé",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom",
+      "audio": ""
+    },
+    {
+      "id": "355b7f75",
+      "espanol": "Papá",
+      "originaria": "Taxaré",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "cae7fcc5",
+      "espanol": "Mamá",
+      "originaria": "Cherá",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "31b8d7f8",
+      "espanol": "Tío",
+      "originaria": "Tesoqo'lec",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "d025f696",
+      "espanol": "Tía",
+      "originaria": "Soro'olé",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "b51336aa",
+      "espanol": "Hermano mayor",
+      "originaria": "Pichoqo'olec",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "2a11f92c",
+      "espanol": "Hermana mayor",
+      "originaria": "Pilo'olé",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "5707fd60",
+      "espanol": "Hermano menor",
+      "originaria": "No?o'olec",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "405e61cb",
+      "espanol": "Hermana menor",
+      "originaria": "No'olé",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "0be6aeac",
+      "espanol": "Sobrina",
+      "originaria": "Lasoshi",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "0e9b0a6a",
+      "espanol": "Sobrino",
+      "originaria": "Lasoshic",
+      "categoria": "Integrantes de la familia",
+      "nota": "Qom"
+    },
+    {
+      "id": "8712bc32",
+      "espanol": "Día",
+      "originaria": "Na'aq",
+      "categoria": "Naturaleza y tiempo",
+      "nota": "Qom"
+    },
+    {
+      "id": "ceab6a40",
+      "espanol": "Noche",
+      "originaria": "Pé",
+      "categoria": "Naturaleza y tiempo",
+      "nota": "Qom"
+    },
+    {
+      "id": "b4bb49eb",
+      "espanol": "Luna",
+      "originaria": "Ca'agoxoic",
+      "categoria": "Naturaleza y tiempo",
+      "nota": "Qom"
+    },
+    {
+      "id": "2d0a669a",
+      "espanol": "Tierra",
+      "originaria": "Alhua",
+      "categoria": "Naturaleza y tiempo",
+      "nota": "Qom"
+    },
+    {
+      "id": "b4192e89",
+      "espanol": "Sol",
+      "originaria": "Nala",
+      "categoria": "Naturaleza y tiempo",
+      "nota": "Qom"
+    },
+    {
+      "id": "cda88c8f",
+      "espanol": "Puerta",
+      "originaria": "Lasom",
+      "categoria": "Objetos y lugares",
+      "nota": "Qom"
+    },
+    {
+      "id": "4670454c",
+      "espanol": "Casa",
+      "originaria": "Ima'",
+      "categoria": "Objetos y lugares",
+      "nota": "Qom"
+    },
+    {
+      "id": "9b8279e4",
+      "espanol": "Actividades",
+      "originaria": "No'onatac",
+      "categoria": "Actividades",
+      "nota": "Qom"
+    },
+    {
+      "id": "8fb02657",
+      "espanol": "Algodón",
+      "originaria": "Hualoq",
+      "categoria": "Flora",
+      "nota": "Qom"
+    },
+    {
+      "id": "2fd1d9db",
+      "espanol": "Hola/Saludo",
+      "originaria": "Maitei",
+      "categoria": "Guaraní",
+      "nota": ""
+    },
+    {
+      "id": "09b07c92",
+      "espanol": "Hola, qué tal/Cómo estás",
+      "originaria": "Mba'éichapa",
+      "categoria": "Guaraní",
+      "nota": ""
+    }
+  ]
+}
